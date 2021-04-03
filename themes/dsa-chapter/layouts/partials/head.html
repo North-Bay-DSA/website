@@ -1,0 +1,13 @@
+    <meta charset="utf-8"/>
+    <title>North Bay DSA</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <meta property="og:title" content="North Bay DSA">
+    <meta property="og:description" content="The North Bay Chapter of the DSA. E-mail dsanorthbay@gmail.com to get involved.">
+    <meta property="og:image" content="https://northbaydsa.org/logo.png">
+    <meta property="og:url" content="https://northbaydsa.org">
+    <meta property="og:type" content="website" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    {{ $style := resources.Get "style.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">

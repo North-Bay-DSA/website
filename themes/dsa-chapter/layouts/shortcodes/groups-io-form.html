@@ -1,0 +1,7 @@
+<form action="https://{{ .Get "domain" }}.groups.io/g/{{ .Get "list" }}/signup?u={{ .Get "u" }}" method="post" id="groupsio-embedded-subscribe-form" name="groupsio-embedded-subscribe-form" target="_blank">
+  <label for="email" id="unstyletemplateformtitle">Mailing List: </label><br>
+  <input type="email" value="" name="email" class="email" id="email" placeholder="email address" required="">
+  
+  <span style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_{{ .Get "u" }}" tabindex="-1" value=""></span>
+  <input type="submit" value="Subscribe" name="subscribe" id="groupsio-embedded-subscribe" class="button">
+</form>

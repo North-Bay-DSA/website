@@ -1,0 +1,4 @@
+baseURL = "https://northbaydsa.org/"
+languageCode = "en-us"
+title = "North Bay DSA"
+theme = "dsa-chapter"
