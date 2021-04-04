@@ -15,6 +15,5 @@
 <meta property="og:type" content="website" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-{{ $sass := resources.Get "style.scss" | resources.Minify | resources.Fingerprint }}
-{{ $style := $sass | resources.ToCSS }}
+{{ $style := resources.Get "style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />

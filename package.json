@@ -1,0 +1,29 @@
+{
+  "name": "north-bay-dsa-website",
+  "version": "1.0.0",
+  "description": "The website for northbaydsa.org",
+  "scripts": {
+    "build": "hugo",
+    "start": "hugo server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/North-Bay-DSA/website.git"
+  },
+  "contributors": [
+    "Simon Samsom <simsamsom@gmail.com>",
+    "Jonah Dahlquist <hi@jonah.name>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/North-Bay-DSA/website/issues"
+  },
+  "homepage": "https://github.com/North-Bay-DSA/website#readme",
+  "hugo-bin": {
+    "buildTags": "extended"
+  },
+  "devDependencies": {
+    "hugo-bin": "^0.70.0"
+  }
+}
