@@ -11,9 +11,13 @@ Most of the work in our chapter happens in our branches, but we share some resou
 
 {{< groups-io-form domain="northbaydsa" list="announce" u="5798150262741437276" >}}
 
-By-laws: [northbaydsa.groups.io/g/announce/wiki](https://northbaydsa.groups.io/g/announce/wiki/26061) (viewable by list subscribers)
+### Links
 
-Calendar: [northbaydsa.groups.io/g/announce/calendar](https://northbaydsa.groups.io/g/announce/calendar) (viewable by list subscribers)
+[Bylaws](https://northbaydsa.groups.io/g/announce/wiki/26061) (viewable by list subscribers)
+
+[Calendar](https://northbaydsa.groups.io/g/announce/calendar) (viewable by list subscribers)
+
+[Conflict Resolution](/conflict)
 
 ## Redwood Branch
 

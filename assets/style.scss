@@ -93,6 +93,15 @@ ul {
   font-size: 1.2rem;
 }
 
+.header h1 a {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+h3 {
+  margin-top: 1rem;
+}
+
 form {
   display: flex;
   align-items: center;
