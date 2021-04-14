@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "The website for northbaydsa.org",
   "scripts": {
-    "build": "hugo",
+    "build": "npm run clean && hugo",
+    "clean": "rm -rf public/*",
     "start": "hugo server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
